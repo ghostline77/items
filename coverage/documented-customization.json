@@ -1,0 +1,338 @@
+{
+  "source": {
+    "repository": "https://github.com/CDPR-Modding-Documentation/Cyberpunk-Modding-Docs",
+    "revision": "a54b08735a560bca7dd76b1e1dab1631e6aaae89",
+    "path": "for-mod-creators-theory/core-mods-explained/archivexl/archivexl-character-creator-additions/README.md"
+  },
+  "interpretation": "Coverage checklist; names and counts are verified against selected game sources rather than treated as a closed taxonomy.",
+  "documented_controls": [
+    {
+      "label": "Hair",
+      "documented_ui_slots": [
+        "hairs"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Hair Color",
+      "documented_ui_slots": [
+        "hair_color",
+        "hair_color_fpp"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Beard",
+      "documented_ui_slots": [
+        "beard"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Beard Color",
+      "documented_ui_slots": [
+        "beard_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Body Tattoo",
+      "documented_ui_slots": [
+        "body_tattoo"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Face Tattoo",
+      "documented_ui_slots": [
+        "facial_tattoo"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Eyes",
+      "documented_ui_slots": [
+        "eyes"
+      ],
+      "native_class": "gameuiMorphInfo"
+    },
+    {
+      "label": "Eye Color",
+      "documented_ui_slots": [
+        "eyes_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Eyebrows",
+      "documented_ui_slots": [
+        "eyebrows"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Eyebrows Color",
+      "documented_ui_slots": [
+        "eyebrows_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Eye Makeup",
+      "documented_ui_slots": [
+        "makeupEyes"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Eye Makeup Color",
+      "documented_ui_slots": [
+        "makeupEyes_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Lip Makeup",
+      "documented_ui_slots": [
+        "makeupLips"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Lip Makeup Color",
+      "documented_ui_slots": [
+        "makeupLips_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Cheek Makeup",
+      "documented_ui_slots": [
+        "makeupCheeks"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Cheek Makeup Color",
+      "documented_ui_slots": [
+        "makeupCheeks_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Skin Color",
+      "documented_ui_slots": [
+        "skin_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Skin Type",
+      "documented_ui_slots": [
+        "skin_type"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Nose",
+      "documented_ui_slots": [
+        "nose"
+      ],
+      "native_class": "gameuiMorphInfo"
+    },
+    {
+      "label": "Mouth",
+      "documented_ui_slots": [
+        "mouth"
+      ],
+      "native_class": "gameuiMorphInfo"
+    },
+    {
+      "label": "Jaw",
+      "documented_ui_slots": [
+        "jaw"
+      ],
+      "native_class": "gameuiMorphInfo"
+    },
+    {
+      "label": "Ear",
+      "documented_ui_slots": [
+        "ear"
+      ],
+      "native_class": "gameuiMorphInfo"
+    },
+    {
+      "label": "Cyberware",
+      "documented_ui_slots": [
+        "cyberware"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Scars",
+      "documented_ui_slots": [
+        "scars"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Piercings",
+      "documented_ui_slots": [
+        "piercings"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Piercing Color",
+      "documented_ui_slots": [
+        "piercings_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Teeth",
+      "documented_ui_slots": [
+        "teeth"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Blemishes",
+      "documented_ui_slots": [
+        "makeupPimples"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Blemish Color",
+      "documented_ui_slots": [
+        "makeupPimples_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Breasts",
+      "documented_ui_slots": [
+        "breast"
+      ],
+      "native_class": "gameuiMorphInfo"
+    },
+    {
+      "label": "Nipples",
+      "documented_ui_slots": [
+        "nipples",
+        "fpp_nipples"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Body Scars",
+      "documented_ui_slots": [
+        "body_scars"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Genitals",
+      "documented_ui_slots": [
+        "genitals"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Penis",
+      "documented_ui_slots": [
+        "genitals_size"
+      ],
+      "native_class": "gameuiMorphInfo"
+    },
+    {
+      "label": "Pubic Hair",
+      "documented_ui_slots": [
+        "pubic_hair"
+      ],
+      "native_class": "gameuiSwitcherInfo"
+    },
+    {
+      "label": "Pubic Hair Color",
+      "documented_ui_slots": [
+        "pubic_hair_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    },
+    {
+      "label": "Nails",
+      "documented_ui_slots": [
+        "nails_l",
+        "nails_r"
+      ],
+      "native_class": "gameuiMorphInfo"
+    },
+    {
+      "label": "Nails Color",
+      "documented_ui_slots": [
+        "nails_color"
+      ],
+      "native_class": "gameuiAppearanceInfo"
+    }
+  ],
+  "documented_modded_tattoo_slots": [
+    {
+      "ui_slot": "neck_tattoo",
+      "documented_index": 3300
+    },
+    {
+      "ui_slot": "left_arm_tattoo",
+      "documented_index": 3301
+    },
+    {
+      "ui_slot": "right_arm_tattoo",
+      "documented_index": 3302
+    },
+    {
+      "ui_slot": "left_shoulder_tattoo",
+      "documented_index": 3303
+    },
+    {
+      "ui_slot": "right_shoulder_tattoo",
+      "documented_index": 3304
+    },
+    {
+      "ui_slot": "chest_tattoo",
+      "documented_index": 3305
+    },
+    {
+      "ui_slot": "stomach_tattoo",
+      "documented_index": 3306
+    },
+    {
+      "ui_slot": "back_tattoo",
+      "documented_index": 3307
+    },
+    {
+      "ui_slot": "left_leg_tattoo",
+      "documented_index": 3308
+    },
+    {
+      "ui_slot": "right_leg_tattoo",
+      "documented_index": 3309
+    }
+  ],
+  "additional_domains": [
+    {
+      "domain": "eyelash_style",
+      "source": "ccxl-eyelashes.md",
+      "native_slot": "unresolved; discover from installed extension"
+    },
+    {
+      "domain": "eyelash_color",
+      "source": "cheat-sheet-character-creator.md",
+      "native_slot": "verified separately in game-customization.json"
+    },
+    {
+      "domain": "body_hair",
+      "source": "modding-guides/npcs/appearances-change-the-looks/custom-bodyhair-for-npcs.md",
+      "native_slot": "not assumed to be a vanilla menu control"
+    }
+  ]
+}

@@ -1,0 +1,1150 @@
+{
+  "format": "ghostline-items-native-customization-inventory",
+  "game_version": "2.31",
+  "scope": "Unmodified content and ep1 archive roots; no mod archives. Counts describe definitions, not visible menu rows or unique selectable assets.",
+  "sources": [
+    {
+      "resource_path": "base/gameplay/gui/fullscreen/main_menu/female_cco.inkcharcustomization",
+      "decoded_json_sha256": "98362103615ca682418d25ebb565f27b124e1867353e416c08afbb09400d23c0",
+      "semantic_root_sha256": "05a2a6ff0839f899c88be5442a9f5e77a20150663ea8d56ff7a6fe773c1ab98e",
+      "control_count": 510,
+      "domain_control_counts": {
+        "head": 405,
+        "body": 73,
+        "arms": 32
+      },
+      "native_class_counts": {
+        "gameuiAppearanceInfo": 475,
+        "gameuiMorphInfo": 10,
+        "gameuiSwitcherInfo": 25
+      },
+      "distinct_ui_slot_count": 60,
+      "ui_slots": {
+        "body_color": {
+          "gameuiAppearanceInfo": 2
+        },
+        "body_scars": {
+          "gameuiAppearanceInfo": 5
+        },
+        "body_scars_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "body_tattoo": {
+          "gameuiAppearanceInfo": 8
+        },
+        "body_tattoo_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "breast": {
+          "gameuiMorphInfo": 1
+        },
+        "cyberware": {
+          "gameuiAppearanceInfo": 17
+        },
+        "cyberware_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "ear": {
+          "gameuiMorphInfo": 1
+        },
+        "eyebrows": {
+          "gameuiSwitcherInfo": 1
+        },
+        "eyebrows_color": {
+          "gameuiAppearanceInfo": 14
+        },
+        "eyelash_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "eyes": {
+          "gameuiMorphInfo": 1
+        },
+        "eyes_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "facial_tattoo": {
+          "gameuiAppearanceInfo": 16
+        },
+        "facial_tattoo_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "finalSceneBruises": {
+          "gameuiAppearanceInfo": 1
+        },
+        "flat_feet": {
+          "gameuiAppearanceInfo": 1
+        },
+        "fpp_body_color": {
+          "gameuiAppearanceInfo": 2
+        },
+        "fpp_body_tattoo": {
+          "gameuiAppearanceInfo": 8
+        },
+        "fpp_body_tattoo_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "fpp_nipples": {
+          "gameuiAppearanceInfo": 4
+        },
+        "fpp_nipples_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "genitals": {
+          "gameuiAppearanceInfo": 4
+        },
+        "genitals_size": {
+          "gameuiAppearanceInfo": 1,
+          "gameuiMorphInfo": 2
+        },
+        "genitals_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "hair_color": {
+          "gameuiAppearanceInfo": 74
+        },
+        "hair_color_fpp": {
+          "gameuiAppearanceInfo": 51
+        },
+        "hairstyle": {
+          "gameuiSwitcherInfo": 2
+        },
+        "holstered_data": {
+          "gameuiAppearanceInfo": 1
+        },
+        "jaw": {
+          "gameuiMorphInfo": 1
+        },
+        "lifted_feet": {
+          "gameuiAppearanceInfo": 1
+        },
+        "makeupCheeks": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupCheeks_color": {
+          "gameuiAppearanceInfo": 25
+        },
+        "makeupEyes": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupEyes_color": {
+          "gameuiAppearanceInfo": 37
+        },
+        "makeupLips": {
+          "gameuiSwitcherInfo": 4
+        },
+        "makeupLips_color": {
+          "gameuiAppearanceInfo": 115
+        },
+        "makeupLips_type": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupPimples": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupPimples_color": {
+          "gameuiAppearanceInfo": 4
+        },
+        "mouth": {
+          "gameuiMorphInfo": 1
+        },
+        "nails_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "nails_l": {
+          "gameuiMorphInfo": 1
+        },
+        "nails_r": {
+          "gameuiMorphInfo": 1
+        },
+        "neck": {
+          "gameuiAppearanceInfo": 1
+        },
+        "nipples": {
+          "gameuiAppearanceInfo": 4
+        },
+        "nipples_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "nose": {
+          "gameuiMorphInfo": 1
+        },
+        "piercings": {
+          "gameuiSwitcherInfo": 1
+        },
+        "piercings_color": {
+          "gameuiAppearanceInfo": 15
+        },
+        "pubic_hair": {
+          "gameuiSwitcherInfo": 4
+        },
+        "pubic_hair_color": {
+          "gameuiAppearanceInfo": 19
+        },
+        "scars": {
+          "gameuiAppearanceInfo": 1
+        },
+        "skin_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "skin_type": {
+          "gameuiAppearanceInfo": 5
+        },
+        "skin_type_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "tattoo": {
+          "gameuiAppearanceInfo": 1
+        },
+        "teeth": {
+          "gameuiAppearanceInfo": 1
+        },
+        "underpants": {
+          "gameuiAppearanceInfo": 1
+        }
+      },
+      "selected_controls": [
+        {
+          "name": "skin_color",
+          "ui_slot": "skin_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 12
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "hairstyle_cyberware",
+          "ui_slot": "hairstyle",
+          "native_class": "gameuiSwitcherInfo",
+          "choice_counts": {
+            "options": 51
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": null
+        },
+        {
+          "name": "hairstyle",
+          "ui_slot": "hairstyle",
+          "native_class": "gameuiSwitcherInfo",
+          "choice_counts": {
+            "options": 51
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "eyes_color",
+          "ui_slot": "eyes_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 71
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "eyelash_color",
+          "ui_slot": "eyelash_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 35
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "penis_none",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 1
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "penis_circumcised",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiMorphInfo",
+          "choice_counts": {
+            "morphNames": 3
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": 1
+        },
+        {
+          "name": "penis_base",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiMorphInfo",
+          "choice_counts": {
+            "morphNames": 3
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": 1
+        },
+        {
+          "name": "nails_color_tpp",
+          "ui_slot": "nails_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 54
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        }
+      ]
+    },
+    {
+      "resource_path": "base/gameplay/gui/fullscreen/main_menu/male_cco.inkcharcustomization",
+      "decoded_json_sha256": "eed5f5689a333b5d2bb94b2a6fc7ccfe37180ef6745f7b111e74bf06e2f4b5b0",
+      "semantic_root_sha256": "179ff5bddfa8319b5b6aba81bf357d55e6f6d3d9a1cc212f4ae76720a2bbeb4f",
+      "control_count": 558,
+      "domain_control_counts": {
+        "head": 483,
+        "body": 52,
+        "arms": 23
+      },
+      "native_class_counts": {
+        "gameuiAppearanceInfo": 512,
+        "gameuiMorphInfo": 9,
+        "gameuiSwitcherInfo": 37
+      },
+      "distinct_ui_slot_count": 55,
+      "ui_slots": {
+        "beard": {
+          "gameuiSwitcherInfo": 1
+        },
+        "beard_color": {
+          "gameuiAppearanceInfo": 57
+        },
+        "beard_part": {
+          "gameuiSwitcherInfo": 13
+        },
+        "body_color": {
+          "gameuiAppearanceInfo": 2
+        },
+        "body_scars": {
+          "gameuiAppearanceInfo": 5
+        },
+        "body_scars_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "body_tattoo": {
+          "gameuiAppearanceInfo": 8
+        },
+        "body_tattoo_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "cyberware": {
+          "gameuiAppearanceInfo": 17
+        },
+        "cyberware_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "ear": {
+          "gameuiMorphInfo": 1
+        },
+        "eyebrows": {
+          "gameuiSwitcherInfo": 1
+        },
+        "eyebrows_color": {
+          "gameuiAppearanceInfo": 14
+        },
+        "eyelash_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "eyes": {
+          "gameuiMorphInfo": 1
+        },
+        "eyes_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "facial_tattoo": {
+          "gameuiAppearanceInfo": 16
+        },
+        "facial_tattoo_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "finalSceneBruises": {
+          "gameuiAppearanceInfo": 1
+        },
+        "genitals": {
+          "gameuiAppearanceInfo": 4
+        },
+        "genitals_size": {
+          "gameuiAppearanceInfo": 1,
+          "gameuiMorphInfo": 2
+        },
+        "genitals_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "hair_color": {
+          "gameuiAppearanceInfo": 79
+        },
+        "hair_color_fpp": {
+          "gameuiAppearanceInfo": 51
+        },
+        "hairstyle": {
+          "gameuiSwitcherInfo": 2
+        },
+        "holstered_data": {
+          "gameuiAppearanceInfo": 1
+        },
+        "jaw": {
+          "gameuiMorphInfo": 1
+        },
+        "makeupCheeks": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupCheeks_color": {
+          "gameuiAppearanceInfo": 25
+        },
+        "makeupEyes": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupEyes_color": {
+          "gameuiAppearanceInfo": 37
+        },
+        "makeupLips": {
+          "gameuiSwitcherInfo": 4
+        },
+        "makeupLips_color": {
+          "gameuiAppearanceInfo": 115
+        },
+        "makeupLips_type": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupPimples": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupPimples_color": {
+          "gameuiAppearanceInfo": 4
+        },
+        "mouth": {
+          "gameuiMorphInfo": 1
+        },
+        "nails_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "nails_l": {
+          "gameuiMorphInfo": 1
+        },
+        "nails_r": {
+          "gameuiMorphInfo": 1
+        },
+        "neck": {
+          "gameuiAppearanceInfo": 1
+        },
+        "nipples": {
+          "gameuiAppearanceInfo": 2
+        },
+        "nipples_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "nose": {
+          "gameuiMorphInfo": 1
+        },
+        "piercings": {
+          "gameuiSwitcherInfo": 1
+        },
+        "piercings_color": {
+          "gameuiAppearanceInfo": 17
+        },
+        "pubic_hair": {
+          "gameuiSwitcherInfo": 4
+        },
+        "pubic_hair_color": {
+          "gameuiAppearanceInfo": 19
+        },
+        "scars": {
+          "gameuiAppearanceInfo": 1
+        },
+        "skin_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "skin_type": {
+          "gameuiAppearanceInfo": 5
+        },
+        "skin_type_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "tattoo": {
+          "gameuiAppearanceInfo": 1
+        },
+        "teeth": {
+          "gameuiAppearanceInfo": 1
+        },
+        "underpants": {
+          "gameuiAppearanceInfo": 1
+        }
+      },
+      "selected_controls": [
+        {
+          "name": "skin_color",
+          "ui_slot": "skin_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 12
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "hairstyle_cyberware",
+          "ui_slot": "hairstyle",
+          "native_class": "gameuiSwitcherInfo",
+          "choice_counts": {
+            "options": 51
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": null
+        },
+        {
+          "name": "hairstyle",
+          "ui_slot": "hairstyle",
+          "native_class": "gameuiSwitcherInfo",
+          "choice_counts": {
+            "options": 51
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "eyes_color",
+          "ui_slot": "eyes_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 71
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "eyelash_color",
+          "ui_slot": "eyelash_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 35
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "penis_none",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 1
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "penis_base",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiMorphInfo",
+          "choice_counts": {
+            "morphNames": 3
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": 1
+        },
+        {
+          "name": "penis_circumcised",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiMorphInfo",
+          "choice_counts": {
+            "morphNames": 3
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": 1
+        },
+        {
+          "name": "nails_color",
+          "ui_slot": "nails_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 54
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        }
+      ]
+    },
+    {
+      "resource_path": "ep1/gameplay/gui/fullscreen/main_menu/female_cco_ep1.inkcharcustomization",
+      "decoded_json_sha256": "58511c9a9076dbbd3cd366df8786d0ccfc17d56712ceec07bdd69f9bdd093a2f",
+      "semantic_root_sha256": "dcda371cd1fd6663418fd1d57019b008aaff496d88084c3d8802e4495f4b81ae",
+      "control_count": 510,
+      "domain_control_counts": {
+        "head": 405,
+        "body": 73,
+        "arms": 32
+      },
+      "native_class_counts": {
+        "gameuiAppearanceInfo": 475,
+        "gameuiMorphInfo": 10,
+        "gameuiSwitcherInfo": 25
+      },
+      "distinct_ui_slot_count": 60,
+      "ui_slots": {
+        "body_color": {
+          "gameuiAppearanceInfo": 2
+        },
+        "body_scars": {
+          "gameuiAppearanceInfo": 5
+        },
+        "body_scars_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "body_tattoo": {
+          "gameuiAppearanceInfo": 8
+        },
+        "body_tattoo_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "breast": {
+          "gameuiMorphInfo": 1
+        },
+        "cyberware": {
+          "gameuiAppearanceInfo": 17
+        },
+        "cyberware_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "ear": {
+          "gameuiMorphInfo": 1
+        },
+        "eyebrows": {
+          "gameuiSwitcherInfo": 1
+        },
+        "eyebrows_color": {
+          "gameuiAppearanceInfo": 14
+        },
+        "eyelash_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "eyes": {
+          "gameuiMorphInfo": 1
+        },
+        "eyes_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "facial_tattoo": {
+          "gameuiAppearanceInfo": 16
+        },
+        "facial_tattoo_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "finalSceneBruises": {
+          "gameuiAppearanceInfo": 1
+        },
+        "flat_feet": {
+          "gameuiAppearanceInfo": 1
+        },
+        "fpp_body_color": {
+          "gameuiAppearanceInfo": 2
+        },
+        "fpp_body_tattoo": {
+          "gameuiAppearanceInfo": 8
+        },
+        "fpp_body_tattoo_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "fpp_nipples": {
+          "gameuiAppearanceInfo": 4
+        },
+        "fpp_nipples_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "genitals": {
+          "gameuiAppearanceInfo": 4
+        },
+        "genitals_size": {
+          "gameuiAppearanceInfo": 1,
+          "gameuiMorphInfo": 2
+        },
+        "genitals_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "hair_color": {
+          "gameuiAppearanceInfo": 74
+        },
+        "hair_color_fpp": {
+          "gameuiAppearanceInfo": 51
+        },
+        "hairstyle": {
+          "gameuiSwitcherInfo": 2
+        },
+        "holstered_data": {
+          "gameuiAppearanceInfo": 1
+        },
+        "jaw": {
+          "gameuiMorphInfo": 1
+        },
+        "lifted_feet": {
+          "gameuiAppearanceInfo": 1
+        },
+        "makeupCheeks": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupCheeks_color": {
+          "gameuiAppearanceInfo": 25
+        },
+        "makeupEyes": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupEyes_color": {
+          "gameuiAppearanceInfo": 37
+        },
+        "makeupLips": {
+          "gameuiSwitcherInfo": 4
+        },
+        "makeupLips_color": {
+          "gameuiAppearanceInfo": 115
+        },
+        "makeupLips_type": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupPimples": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupPimples_color": {
+          "gameuiAppearanceInfo": 4
+        },
+        "mouth": {
+          "gameuiMorphInfo": 1
+        },
+        "nails_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "nails_l": {
+          "gameuiMorphInfo": 1
+        },
+        "nails_r": {
+          "gameuiMorphInfo": 1
+        },
+        "neck": {
+          "gameuiAppearanceInfo": 1
+        },
+        "nipples": {
+          "gameuiAppearanceInfo": 4
+        },
+        "nipples_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "nose": {
+          "gameuiMorphInfo": 1
+        },
+        "piercings": {
+          "gameuiSwitcherInfo": 1
+        },
+        "piercings_color": {
+          "gameuiAppearanceInfo": 15
+        },
+        "pubic_hair": {
+          "gameuiSwitcherInfo": 4
+        },
+        "pubic_hair_color": {
+          "gameuiAppearanceInfo": 19
+        },
+        "scars": {
+          "gameuiAppearanceInfo": 1
+        },
+        "skin_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "skin_type": {
+          "gameuiAppearanceInfo": 5
+        },
+        "skin_type_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "tattoo": {
+          "gameuiAppearanceInfo": 1
+        },
+        "teeth": {
+          "gameuiAppearanceInfo": 1
+        },
+        "underpants": {
+          "gameuiAppearanceInfo": 1
+        }
+      },
+      "selected_controls": [
+        {
+          "name": "skin_color",
+          "ui_slot": "skin_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 12
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "hairstyle_cyberware",
+          "ui_slot": "hairstyle",
+          "native_class": "gameuiSwitcherInfo",
+          "choice_counts": {
+            "options": 51
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": null
+        },
+        {
+          "name": "hairstyle",
+          "ui_slot": "hairstyle",
+          "native_class": "gameuiSwitcherInfo",
+          "choice_counts": {
+            "options": 51
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "eyes_color",
+          "ui_slot": "eyes_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 71
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "eyelash_color",
+          "ui_slot": "eyelash_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 35
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "penis_none",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 1
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "penis_circumcised",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiMorphInfo",
+          "choice_counts": {
+            "morphNames": 3
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": 1
+        },
+        {
+          "name": "penis_base",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiMorphInfo",
+          "choice_counts": {
+            "morphNames": 3
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": 1
+        },
+        {
+          "name": "nails_color_tpp",
+          "ui_slot": "nails_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 54
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        }
+      ]
+    },
+    {
+      "resource_path": "ep1/gameplay/gui/fullscreen/main_menu/male_cco_ep1.inkcharcustomization",
+      "decoded_json_sha256": "6635eed268cc20e2739c2978a7d48049160fe70bd1f861c2ea9c85365fe86fc0",
+      "semantic_root_sha256": "54b2724b2e17cedd42ab869cb2a7ae76a5b8047150bc04e12abfde3373748593",
+      "control_count": 558,
+      "domain_control_counts": {
+        "head": 483,
+        "body": 52,
+        "arms": 23
+      },
+      "native_class_counts": {
+        "gameuiAppearanceInfo": 512,
+        "gameuiMorphInfo": 9,
+        "gameuiSwitcherInfo": 37
+      },
+      "distinct_ui_slot_count": 55,
+      "ui_slots": {
+        "beard": {
+          "gameuiSwitcherInfo": 1
+        },
+        "beard_color": {
+          "gameuiAppearanceInfo": 57
+        },
+        "beard_part": {
+          "gameuiSwitcherInfo": 13
+        },
+        "body_color": {
+          "gameuiAppearanceInfo": 2
+        },
+        "body_scars": {
+          "gameuiAppearanceInfo": 5
+        },
+        "body_scars_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "body_tattoo": {
+          "gameuiAppearanceInfo": 8
+        },
+        "body_tattoo_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "cyberware": {
+          "gameuiAppearanceInfo": 17
+        },
+        "cyberware_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "ear": {
+          "gameuiMorphInfo": 1
+        },
+        "eyebrows": {
+          "gameuiSwitcherInfo": 1
+        },
+        "eyebrows_color": {
+          "gameuiAppearanceInfo": 14
+        },
+        "eyelash_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "eyes": {
+          "gameuiMorphInfo": 1
+        },
+        "eyes_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "facial_tattoo": {
+          "gameuiAppearanceInfo": 16
+        },
+        "facial_tattoo_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "finalSceneBruises": {
+          "gameuiAppearanceInfo": 1
+        },
+        "genitals": {
+          "gameuiAppearanceInfo": 4
+        },
+        "genitals_size": {
+          "gameuiAppearanceInfo": 1,
+          "gameuiMorphInfo": 2
+        },
+        "genitals_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "hair_color": {
+          "gameuiAppearanceInfo": 79
+        },
+        "hair_color_fpp": {
+          "gameuiAppearanceInfo": 51
+        },
+        "hairstyle": {
+          "gameuiSwitcherInfo": 2
+        },
+        "holstered_data": {
+          "gameuiAppearanceInfo": 1
+        },
+        "jaw": {
+          "gameuiMorphInfo": 1
+        },
+        "makeupCheeks": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupCheeks_color": {
+          "gameuiAppearanceInfo": 25
+        },
+        "makeupEyes": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupEyes_color": {
+          "gameuiAppearanceInfo": 37
+        },
+        "makeupLips": {
+          "gameuiSwitcherInfo": 4
+        },
+        "makeupLips_color": {
+          "gameuiAppearanceInfo": 115
+        },
+        "makeupLips_type": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupPimples": {
+          "gameuiSwitcherInfo": 1
+        },
+        "makeupPimples_color": {
+          "gameuiAppearanceInfo": 4
+        },
+        "mouth": {
+          "gameuiMorphInfo": 1
+        },
+        "nails_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "nails_l": {
+          "gameuiMorphInfo": 1
+        },
+        "nails_r": {
+          "gameuiMorphInfo": 1
+        },
+        "neck": {
+          "gameuiAppearanceInfo": 1
+        },
+        "nipples": {
+          "gameuiAppearanceInfo": 2
+        },
+        "nipples_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "nose": {
+          "gameuiMorphInfo": 1
+        },
+        "piercings": {
+          "gameuiSwitcherInfo": 1
+        },
+        "piercings_color": {
+          "gameuiAppearanceInfo": 17
+        },
+        "pubic_hair": {
+          "gameuiSwitcherInfo": 4
+        },
+        "pubic_hair_color": {
+          "gameuiAppearanceInfo": 19
+        },
+        "scars": {
+          "gameuiAppearanceInfo": 1
+        },
+        "skin_color": {
+          "gameuiAppearanceInfo": 1
+        },
+        "skin_type": {
+          "gameuiAppearanceInfo": 5
+        },
+        "skin_type_switcher": {
+          "gameuiSwitcherInfo": 1
+        },
+        "tattoo": {
+          "gameuiAppearanceInfo": 1
+        },
+        "teeth": {
+          "gameuiAppearanceInfo": 1
+        },
+        "underpants": {
+          "gameuiAppearanceInfo": 1
+        }
+      },
+      "selected_controls": [
+        {
+          "name": "skin_color",
+          "ui_slot": "skin_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 12
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "hairstyle_cyberware",
+          "ui_slot": "hairstyle",
+          "native_class": "gameuiSwitcherInfo",
+          "choice_counts": {
+            "options": 51
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": null
+        },
+        {
+          "name": "hairstyle",
+          "ui_slot": "hairstyle",
+          "native_class": "gameuiSwitcherInfo",
+          "choice_counts": {
+            "options": 51
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "eyes_color",
+          "ui_slot": "eyes_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 71
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "eyelash_color",
+          "ui_slot": "eyelash_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 35
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "penis_none",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 1
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        },
+        {
+          "name": "penis_base",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiMorphInfo",
+          "choice_counts": {
+            "morphNames": 3
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": 1
+        },
+        {
+          "name": "penis_circumcised",
+          "ui_slot": "genitals_size",
+          "native_class": "gameuiMorphInfo",
+          "choice_counts": {
+            "morphNames": 3
+          },
+          "enabled_explicit": false,
+          "default_index_explicit": 1
+        },
+        {
+          "name": "nails_color",
+          "ui_slot": "nails_color",
+          "native_class": "gameuiAppearanceInfo",
+          "choice_counts": {
+            "definitions": 54
+          },
+          "enabled_explicit": null,
+          "default_index_explicit": null
+        }
+      ]
+    }
+  ],
+  "decoder": {
+    "project": "ghostline77/ghostline-red",
+    "executable_sha256": "c77c4c42af01c15815b29982ed9a0844e9da1170c444c1ab020493543faf44a9",
+    "schema_sha256": "ab3c1319276bf6ed4ff5339b0d53df4efa8ee54be1c39271cd265a73840bcc7a"
+  }
+}

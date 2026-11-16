@@ -1,0 +1,51 @@
+{
+  "format": "ghostline-items-native-record-inventory",
+  "game_version": "2.31",
+  "sources": [
+    {
+      "file": "tweakdb.bin",
+      "sha256": "918f0acfc3f3174b29b5c10b463dfb106b603118c85d24456204a1e2a2ac13f9",
+      "blob_version": 8,
+      "parser_version": 4,
+      "record_count": 176198,
+      "item_record_count": 8417,
+      "item_record_types": {
+        "gamedataClothing_Record": 1483,
+        "gamedataConsumableItem_Record": 237,
+        "gamedataGadget_Record": 3,
+        "gamedataGrenade_Record": 102,
+        "gamedataItemRecipe_Record": 965,
+        "gamedataItem_Record": 4042,
+        "gamedataWeaponItem_Record": 1585
+      },
+      "unresolved_record_type_count": 0
+    },
+    {
+      "file": "tweakdb_ep1.bin",
+      "sha256": "89c7ee678c1366d4c289edc78beaa60ce3d64bf44b300fc3902adc94f6ac14c5",
+      "blob_version": 8,
+      "parser_version": 4,
+      "record_count": 193354,
+      "item_record_count": 10042,
+      "item_record_types": {
+        "gamedataClothing_Record": 1997,
+        "gamedataConsumableItem_Record": 258,
+        "gamedataGadget_Record": 3,
+        "gamedataGrenade_Record": 102,
+        "gamedataItemRecipe_Record": 995,
+        "gamedataItem_Record": 4864,
+        "gamedataWeaponItem_Record": 1823
+      },
+      "unresolved_record_type_count": 0
+    }
+  ],
+  "base_ep1_item_id_overlap": 8417,
+  "union_item_record_ids": 10042,
+  "method": "Native TweakDB v8/parser4 record tables; record type hashes resolved by Murmur3 seed 0x5EEDBA5E against the reflected gamedata class inheritance tree.",
+  "reflection_source": {
+    "repository": "https://github.com/WolvenKit/WolvenKit",
+    "revision": "4d1716b1755dcadead2815b3ec356fa61f30861c",
+    "reader": "WolvenKit.RED4/TweakDB/TweakDBReader.cs",
+    "classes": "WolvenKit.RED4/Types/Classes"
+  }
+}

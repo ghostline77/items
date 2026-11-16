@@ -1,0 +1,103 @@
+@layer theme, base, app-layout, components, utilities;
+@import "../style.css" layer(app-layout);
+@import "@ghostline/ui-core/styles.css";
+@import "@ghostline/ui-core/controller.css";
+.gl-root > main {
+  flex: 1;
+}
+.check .gl-input {
+  width: auto;
+  padding: 0;
+}
+.gl-app-shell > main {
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+}
+.gl-app-shell h1 {
+  font-size: clamp(28px, 3.5vw, 42px);
+  margin: 0 0 16px;
+}
+.gl-app-shell .intro {
+  font-size: 14px;
+  margin: 0 0 16px;
+}
+.gl-app-shell .counts {
+  margin: 16px 0 24px;
+  color: var(--color-muted);
+}
+.gl-app-shell :where(.card, .card h2) {
+  color: var(--color-foreground);
+}
+.gl-app-shell :where(.eyebrow, .tag) {
+  color: var(--color-muted);
+}
+.gl-app-shell .filters {
+  gap: 16px;
+}
+.gl-app-shell .filters label {
+  flex: 1;
+  min-width: 160px;
+}
+.gl-app-shell .filters select {
+  min-width: 0;
+  width: 100%;
+}
+.gl-app-shell .filters .check {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.gl-app-shell .filters .check input {
+  margin: 0;
+}
+.gl-app-shell .result-bar {
+  margin-block: 24px 16px;
+  flex-wrap: wrap;
+}
+.gl-app-shell .grid {
+  gap: 20px;
+}
+.gl-app-shell .visual {
+  padding: 0;
+  background: var(--color-background);
+}
+.gl-app-shell pre {
+  padding: 16px;
+  font-size: 12px;
+}
+.gl-app-shell .components {
+  table-layout: fixed;
+}
+.gl-app-shell .components td:last-child {
+  white-space: normal;
+}
+.gl-app-shell .pager {
+  flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  .gl-app-shell > main {
+    padding: 24px 16px 40px;
+  }
+  .gl-app-shell .filters {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+  .gl-app-shell .filters label {
+    width: 100%;
+  }
+  .gl-app-shell .previews {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .gl-app-shell .components {
+    display: block;
+    overflow: auto;
+  }
+  .gl-app-shell .components td,
+  .gl-app-shell .components th {
+    min-width: 130px;
+  }
+}
