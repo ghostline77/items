@@ -2,7 +2,7 @@
 
 ## Developer inputs
 
-Build the CLI with `cargo build --release --locked`. The executable is `target/release/ghostline-items.exe` on Windows. The sibling `ghostline-red` and `renderer` crates are linked into it.
+Build the CLI with `cargo build --release --locked`. The executable is `target/release/ghostline-items.exe` on Windows. Cargo fetches and links the native dependencies.
 
 Generation requires an installed game. RED reflection metadata is bundled and loaded automatically; `--schema` is an optional advanced override. Equipment and character customization additionally require one explicitly selected complete compiled cache. Select `r6/cache/tweakdb.bin` for base-game records or `tweakdb_ep1.bin` for the expansion cache; do not sum or blindly overlay them. The archive reader selects installed unmodified base/EP1 archives. Runtime mod substitutions are outside this source scope.
 

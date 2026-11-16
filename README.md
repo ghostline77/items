@@ -19,10 +19,7 @@ nor the developer tools.
 
 ## Generate a catalogue
 
-Use Rust 1.92+, an installed game and the sibling native crates declared in
-[Cargo.toml](Cargo.toml). Install the parent JavaScript workspace with `npm ci`
-before building a fresh checkout, then run `cargo build --release --locked`
-from this repository.
+Install Rust 1.92+, Node.js and npm, and authenticate Git for access to the private Ghostline dependencies. Run `cargo build --release --locked` from this repository. Catalogue generation also requires an installed game.
 
 [Build and browse](docs/usage.md) covers required name dictionaries, source-cache
 selection and commands. Catalogue generation resolves visual bindings and reports
